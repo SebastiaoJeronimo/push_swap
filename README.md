@@ -10,8 +10,8 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 - [License](#license)
 
 
-##stack operations  
-..
+## stack operations  
+
 
 ## Installation
 ...
