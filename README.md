@@ -31,6 +31,40 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 ...
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## run_the_project
 ...
 
