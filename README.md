@@ -2,15 +2,14 @@
 implementing a algorithm to order two stacks (implemented with linked lists) main focus is the temporal complexity of the operations
 
 # Table of Contents
-- [run the project](#run_the_project)
-- [Installation](#installation)
+- [stack_operations](#stack-operations)
 - [Usage](#usage)
   - [Example 1](#example-1)
   - [Example 2](#example-2)
 - [Contributing](#contributing)
 - [License](#license)
 
-
+##stack operations
 
 ## Installation
 ...
@@ -29,43 +28,3 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 
 ## License
 ...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## run_the_project
-...
-
-
