@@ -12,10 +12,6 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 
 ## stack operations  
 
-
-## Installation
-...
-
 ## Usage
 ...
 
