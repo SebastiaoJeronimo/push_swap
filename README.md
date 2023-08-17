@@ -2,7 +2,7 @@
 implementing a algorithm to order two stacks (implemented with linked lists) main focus is the temporal complexity of the operations
 
 # Table of Contents
-- [Introduction](#introduction)
+- [run and compile the project](#run the project)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Example 1](#example-1)
@@ -10,7 +10,7 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## - #run the project
 ...
 
 ## Installation
