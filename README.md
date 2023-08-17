@@ -11,12 +11,14 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 
 
 ## stack operations  
-operation swap (swaps the fist two elements of the stack)   
-Temporal complexity O(1)  
+operation swap (swaps the fist two elements of the stack)     
 
 ![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/54309cab-975e-45dc-ac23-c8091d1779ec)  
 
+
 implementation of the swap operation  
+Temporal complexity O(1)  
+
 
 ![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/7ab74e42-013e-4007-9968-339758f56c86)  
 
