@@ -10,8 +10,7 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 - [Contributing](#contributing)
 - [License](#license)
 
-## run_the_project
-...
+
 
 ## Installation
 ...
@@ -32,6 +31,7 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 ...
 
 
-
+## run_the_project
+...
 
 
