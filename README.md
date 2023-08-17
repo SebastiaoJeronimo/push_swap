@@ -9,7 +9,8 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 - [Contributing](#contributing)
 - [License](#license)
 
-##stack operations
+##stack operations  
+..
 
 ## Installation
 ...
