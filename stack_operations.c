@@ -1,5 +1,16 @@
-#include "stack.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   stack_operations.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: scosta-j <scosta-j@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/08/19 14:28:09 by scosta-j          #+#    #+#             */
+/*   Updated: 2023/08/22 18:08:25 by scosta-j         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
+#include "stack.h"
 
 /**
  * @brief takes a element from stack1 (pop) and puts in the  stack2 (push)
@@ -11,16 +22,15 @@
  */
 int	push(t_list **stack_1, t_list **stack_2)
 {
-    t_list *head_1;
+	t_list	*head_1;
 
-    if (!*stack_1)
-        return (0); //or NULL
-    head_1 = *stack_1;
-    *stack_1 = (*stack_1)->next;
-    head_1->next = *stack_2;
-    *stack_2 = head_1;
-    return (1);
-    //print the operation after maybe
+	if (!*stack_1)
+		return (0);
+	head_1 = *stack_1;
+	*stack_1 = (*stack_1)->next;
+	head_1->next = *stack_2;
+	*stack_2 = head_1;
+	return (1);
 }
 
 /**
@@ -29,21 +39,21 @@ int	push(t_list **stack_1, t_list **stack_2)
  * @param stack the stack that we are going to swap the first two elements
  * @return int 1 if sucessful 0 if stack empty or has one element
  */
-int	swap (t_list	**stack)
+int	swap(t_list	**stack)
 {
-    t_list *first;
-    t_list *second;
-    t_list *third;
+	t_list	*first;
+	t_list	*second;
+	t_list	*third;
 
-    if (!*stack || !(*stack)->next)
-        return (0);
-    first = *stack;
-    second = (*stack)->next;
-    third = second->next;
-    first->next = third;
-    second->next = first;
-    *stack = second; //update the reference of the head of the stack
-    return (1);
+	if (!*stack || !(*stack)->next)
+		return (0);
+	first = *stack;
+	second = (*stack)->next;
+	third = second->next;
+	first->next = third;
+	second->next = first;
+	*stack = second;
+	return (1);
 }
 
 /**
@@ -54,21 +64,21 @@ int	swap (t_list	**stack)
  */
 int	rotate(t_list **stack)
 {
-    t_list *first;
-    t_list *second;
-    t_list *last;
+	t_list	*first;
+	t_list	*second;
+	t_list	*last;
 
-    if (!*stack || !(*stack)->next)
-        return (0);
-    first = *stack;
-    second = first->next;
-    last = *stack;
-    while (last->next)
-        last = last->next;
-    first->next = NULL;
-    last->next = first;
-    *stack = second;
-    return (1);
+	if (!*stack || !(*stack)->next)
+		return (0);
+	first = *stack;
+	second = first->next;
+	last = *stack;
+	while (last->next)
+		last = last->next;
+	first->next = NULL;
+	last->next = first;
+	*stack = second;
+	return (1);
 }
 
 /**
@@ -79,20 +89,21 @@ int	rotate(t_list **stack)
  */
 int	rev_rotate(t_list **stack)
 {
-    t_list *first;
-    t_list *last;
-    t_list *new_last;
-    if (!*stack || !(*stack)->next)
-        return (0);
-    first = *stack;
-    last = *stack;
-    while (last->next)
-    {
-        new_last = last;
-        last = last->next;
-    }
-    new_last->next = NULL;
-    last->next = first;
-    *stack = last;
-    return (1);
+	t_list	*first;
+	t_list	*last;
+	t_list	*new_last;
+
+	if (!*stack || !(*stack)->next)
+		return (0);
+	first = *stack;
+	last = *stack;
+	while (last->next)
+	{
+		new_last = last;
+		last = last->next;
+	}
+	new_last->next = NULL;
+	last->next = first;
+	*stack = last;
+	return (1);
 }

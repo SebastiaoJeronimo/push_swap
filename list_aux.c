@@ -6,7 +6,7 @@
 /*   By: scosta-j <scosta-j@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/10 23:18:55 by scosta-j          #+#    #+#             */
-/*   Updated: 2023/08/15 23:13:39 by scosta-j         ###   ########.fr       */
+/*   Updated: 2023/08/22 06:34:50 by scosta-j         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,4 +59,38 @@ t_list	*ft_lstnew(int content)
 	l->data = content;
 	l->next = NULL;
 	return (l);
+}
+
+/**
+ * @brief returns the size of the list
+*/
+int	ft_lstsize(t_list *lst)
+{
+	int		i;
+	t_list	*temp_lst;
+
+	i = 0;
+	temp_lst = lst;
+	while (temp_lst != NULL)
+	{
+		temp_lst = temp_lst->next;
+		i++;
+	}
+	return (i);
+}
+
+/**
+ * @brief Function to free a linked list. ends the progam after that
+ */
+void	free_list(t_list **head)
+{
+	t_list	*l_temp;
+
+	while (*head)
+	{
+		l_temp = (*head)->next;
+		free(*head);
+		*head = l_temp;
+	}
+	exit(0);
 }
