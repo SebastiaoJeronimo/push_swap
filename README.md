@@ -38,7 +38,13 @@ operation rotate (the first element becomes the last one)
 implementation of the rotate opertion  
 Temporal complexity O()  
 
+operation rotate (the last element becomes the first one)  
 
+![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/1aa7f2b4-5015-48c2-8924-7c9d600d3baf)  
+
+
+implementation of the rotate opertion  
+Temporal complexity O()  
 
 
 
