@@ -31,20 +31,32 @@ opertaion push (takes the first element of a stack and puts it on the top of the
 implementation of the push operation  
 Temporal complexity O(1)  
 
+![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/bf012838-c43e-42b0-965b-bce464bb3756)  
+
+
+
 operation rotate (the first element becomes the last one)  
 
 ![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/6e044fb7-d728-439e-8b61-5e3c94d1c189)  
 
 implementation of the rotate opertion  
-Temporal complexity O()  
+Temporal complexity O(n)  
 
-operation rotate (the last element becomes the first one)  
+![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/6de54790-b508-4c98-b752-df45632dabaf)  
+
+
+
+operation reverse rotate (the last element becomes the first one)  
 
 ![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/1aa7f2b4-5015-48c2-8924-7c9d600d3baf)  
 
 
-implementation of the rotate opertion  
-Temporal complexity O()  
+implementation of the reverse rotate opertion  
+Temporal complexity O(n)  
+
+![image](https://github.com/SebastiaoJeronimo/push_swap/assets/99453107/b8e5740b-9415-4e6a-956d-a8ccc2a498b5)  
+
+
 
 
 
