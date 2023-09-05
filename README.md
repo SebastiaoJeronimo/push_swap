@@ -62,7 +62,7 @@ Temporal complexity O(n)
 ## Algorithm
 ...
 
-### radix sort
+### radix_sort
 ...
 
 ### Example 2
