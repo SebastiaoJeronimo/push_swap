@@ -4,7 +4,7 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 # Table of Contents
 - [stack operations](#stack-operations)
 - [Algorithm](#algoritm)
-  - [radix_sort](#radix_sort)
+  - [radix sort](#radix_sort)
 - [Contributing](#contributing)
 - [License](#license)
 
