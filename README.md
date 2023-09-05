@@ -3,9 +3,8 @@ implementing a algorithm to order two stacks (implemented with linked lists) mai
 
 # Table of Contents
 - [stack operations](#stack-operations)
-- [Usage](#usage)
-  - [Example 1](#example-1)
-  - [Example 2](#example-2)
+- [Algorithm](#algoritm)
+  - [radix_sort](#radix_sort)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -60,10 +59,10 @@ Temporal complexity O(n)
 
 
 
-## Usage
+## Algorithm
 ...
 
-### Example 1
+### radix sort
 ...
 
 ### Example 2
